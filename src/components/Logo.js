@@ -12,6 +12,7 @@ const head = () =>{
                         <img
                             className='d-block mx-auto img-fluid xenlogo'
                             src={ Logo }
+                            alt="Logo"
                         />
                     </Col>
                 </Row>

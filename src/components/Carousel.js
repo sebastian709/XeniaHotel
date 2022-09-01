@@ -1,11 +1,11 @@
 import React from 'react'
-import { Carousel, Container, Row, Col } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import Hello from '../img/Hello.jpg'
 import Hi from '../img/Hi.png'
 import Hotel from '../img/Hotel.png'
 import '../App.css'
 
-function UncontrolledExample() {
+function Background() {
   return (
     <>
       <Carousel className=''>
@@ -18,7 +18,7 @@ function UncontrolledExample() {
           />
           <div className='dark-overlay'></div>
           <Carousel.Caption className='centering'>
-                <h3 className='font-size'>Welcome to Xenia Hotel</h3>
+                <h3 className='font-size'>Your new home in Clark</h3>
                 <p>Found in the modern city of Clark, one of the leading business and tourism hubs in the Philippines, Xenia Hotel offers cozy, air-conditioned rooms, with delicious buffet breakfast and use of gym and swimming pool.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -56,4 +56,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Background;
