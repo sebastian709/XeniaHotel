@@ -76,6 +76,24 @@
     font-size: 60px;
     text-align: left;
 }
+.bg-gray{
+    background-color: #ccccc5;
+}
+
+.text-main{
+    color:#e45414;
+}
+
+.xenia-icons{
+    width: 20%;
+}
+.title-amenities{
+    width: 10px;
+}
+.text-ame-body{
+    width: 35%;
+    margin:0vh 31.3vw;
+}
 @media only screen and (max-width: 600px) {
     *{
         padding: 0;
@@ -120,6 +138,10 @@
     .title-facilities{
         text-align: left;
         font-size: 40px;
+    }
+    .text-ame-body{
+        width: 60%;
+        margin:0vh 18.5vw;
     }
     
 }
