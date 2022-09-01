@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.cover{
+    height: 76vh;
+}
+.navcolor{
+    background-color: #e45414;
+}
+.xenlogo{
+    width: 15%;
+}
+.font-link {
+    font-family: 'Rubik', sans-serif;
+}
+.dark-overlay {
+    background-color: rgba(0, 0, 0, .70);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.font-size{
+    font-size: 50px;
+}
+.centering{
+    height: 45vh;
+}
+.font-size{
+    font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .xenlogo{
+        width: 40%;
+    }
+    .centering{
+        height: 55vh;
+    }
+    
+}
