@@ -1,56 +1,98 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import { Carousel} from 'react-bootstrap'
+import Rev1 from '../img/Rev1.jpg'
+import Rev2 from '../img/Rev2.jpg'
+import Rev3 from '../img/Rev3.jpg'
+import Rev4 from '../img/steve.jpg'
 
 const Reviews = () => {
     return(
         <>
-            <Carousel className=''>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 cover index-back"
-                        src={ Hotel }
-                        alt="First slide"
-                        fluid
-                    />
-                    <div className='dark-overlay'></div>
-                    <Carousel.Caption>
-                            <h3>Your new home in Clark</h3>
-                            <p>Found in the modern city of Clark, one of the leading business and tourism hubs in the Philippines, Xenia Hotel offers cozy, air-conditioned rooms, with delicious buffet breakfast and use of gym and swimming pool.</p>
+            <h1 className='text-center text-light navcolor mb-0 review-title pt-4'>Reviews and testimonials</h1>
+            <Carousel className='w-100 navcolor'>
+                <Carousel.Item className='review-container'>
+                    <Carousel.Caption className='review-body d-block m-auto'>
+                        <div className='review-body-text'>
+                            <div className='join-text'>
+                                <h1 className='left-text font-passion'>"</h1>
+                            </div>
+                            <div className='join-text'>
+                                <h3 className='text-justify right-text'>I like that the room is spacious and their service was good. They also provide free shuttle going back and forth to SM Clark. Breakfast should also be improved, only few choices and it doesnt exceed my expectation. Maybe the quality of the food is not so good.</h3>
+                            </div>
+                        </div>
+                        <div className='triangle-down d-block m-auto'></div>
+                        <img
+                            className="d-block m-auto rounded-circle review-img"
+                            src={ Rev1 }
+                            alt="First Review"
+                        />
+                        <p>Rivera C.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 cover"
-                        src={ Hello }
-                        alt="Second slide"
-                        fluid
-                    />
-                    <div className='dark-overlay'></div>
-                    <Carousel.Caption>
-                            <h3>With a warm and inviting ambience</h3>
-                            <p>The 200 air-conditioned rooms of Xenia Hotel in Clark, Pampanga are guaranteed to make you feel as if you’ve never left home. All are spacious and cozy: perfect for solo travelers, couples, families on vacation, and people on business trips. 
+                <Carousel.Item className='review-container navcolor'>
+                    <Carousel.Caption className='review-body d-block m-auto'>
+                        <div className='review-body-text'>
+                            <div className='join-text'>
+                                <h1 className='left-text font-passion'>"</h1>
+                            </div>
+                            <div className='join-text'>
+                                <h3 className='text-justify right-text'>The staff are accommodating and welcoming. Rooms are spacious and the hotel is very clean as a whole. We love the decors on the lobby. The restaurant offers a variety of breakfast menu. There's an acoustic band playing at night too. </h3>
+                            </div>
+                        </div>
+                        
+                        <div className='triangle-down d-block m-auto'>
+                        </div>
+                        
+                        <img
+                            className="d-block m-auto rounded-circle review-img"
+                            src={ Rev2 }
+                            alt="Second Review"
+                        />
+                        <p>Joy T.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className='review-container navcolor'>
+                    <Carousel.Caption className='review-body d-block m-auto'>
+                        <div className='review-body-text'>
+                            <div className='join-text'>
+                                <h1 className='left-text font-passion'>"</h1>
+                            </div>
+                            <div className='join-text'>
+                                <h3 className='text-justify right-text'>Room gave me the same feeling, spacious. did not feel hemmed in at all. Food choices is on the savory and heavy side. parking was not a problem. And the staff were very nice, providing quick service. i would come back here.</h3>
+                            </div>
+                        </div>
+                        <div className='triangle-down d-block m-auto'>
 
-                            </p>
+                        </div>
+                        <img
+                            className="d-block m-auto rounded-circle review-img"
+                            src={ Rev3 }
+                            alt="Second Review"
+                        />
+                        <p>Pogs D.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 cover"
-                        src={ Hi }
-                        alt="Third slide"
-                        fluid
-                    />
-                    <div className='dark-overlay'></div>
-                    <Carousel.Caption>
-                            <img
-                                 className="d-block w-100 cover"
-                                 src={ Hi }
-                                 alt="Third slide"
-                            />
-                            <h3>Second home of those who seek for the best</h3>
-                            <p>Philippines has to offer, whether that may be in the field of business, leisure, or culture. Our guests’ purpose for visiting may wildly differ but one thing remains constant: our commitment to world-class hospitality services.</p>
+                <Carousel.Item className='review-container navcolor'>
+                    <Carousel.Caption className='review-body d-block m-auto'>
+                        <div className='review-body-text'>
+                            <div className='join-text'>
+                                <h1 className='left-text font-passion'>"</h1>
+                            </div>
+                            <div className='join-text'>
+                                <h3 className='text-justify right-text'>We had a blast and super duper happy that we decided to spend our NY Eve at Xenia. The rate is easy on the pocket with package inclusions that are highly commendable. We are looking forward to the next NY Eve party as we plan to spend it there again!</h3>
+                            </div>
+                        </div>
+                        <div className='triangle-down d-block m-auto'>
+
+                        </div>
+                        <img
+                            className="d-block m-auto rounded-circle review-img"
+                            src={ Rev4 }
+                            alt="Second Review"
+                        />
+                        <p>Steve J.</p>
                     </Carousel.Caption>
-                    </Carousel.Item>
+                </Carousel.Item>
             </Carousel>
         </>       
     )

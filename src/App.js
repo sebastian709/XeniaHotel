@@ -5,6 +5,9 @@ import Logo from './components/Logo'
 import Welcome from './components/Welcome'
 import Facilities from './components/Facilities'
 import Amenities from './components/Amenities'
+import Reviews from './components/Reviews'
+import Location from './components/Location'
+import Footer from './components/Footer'
 
 const App = () =>{
     return(
@@ -15,6 +18,9 @@ const App = () =>{
           <Welcome />
           <Amenities />
           <Facilities />
+          <Reviews />
+          <Location />
+          <Footer />
         </>
     )
 }
